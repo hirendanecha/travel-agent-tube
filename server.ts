@@ -78,14 +78,14 @@ export function app(): express.Express {
         }
         const params = req.params[0];
         var seo: any = {
-          title: 'Healing Tube',
+          title: 'Travel Agent',
           description:
-            'The Umbrella platform for All freedom based projects worldwide',
+            'Speak face to face with travel agents locally or worldwide',
           image:
             'https://video.healing.tube/assets/banner/travel-agent-Logo.jpg',
           site: 'https://video.healing.tube/',
           url: 'https://video.healing.tube' + params,
-          keywords: 'Healing Tube',
+          keywords: 'Travel Agent',
         };
         if (
           params.indexOf('channel/') > -1
@@ -126,7 +126,7 @@ export function app(): express.Express {
           const pdhtml = document.createElement('div');
           pdhtml.innerHTML = post?.postdescription || post?.metadescription;
           const talent = {
-            name: post?.title || post?.albumname || 'Healing.Tube Post',
+            name: post?.title || post?.albumname || 'Travel.Agent Post',
             description: pdhtml?.textContent || 'Post content',
             image: post?.thumbfilename || post?.metaimage || post?.imageUrl,
           };
