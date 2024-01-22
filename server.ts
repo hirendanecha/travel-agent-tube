@@ -82,9 +82,9 @@ export function app(): express.Express {
           description:
             'Speak face to face with travel agents locally or worldwide',
           image:
-            'https://video.healing.tube/assets/banner/travel-agent-Logo.jpg',
-          site: 'https://video.healing.tube/',
-          url: 'https://video.healing.tube' + params,
+            'https://video.travelagent.tube/assets/banner/travel-agent-Logo.jpg',
+          site: 'https://video.travelagent.tube/',
+          url: 'https://video.travelagent.tube' + params,
           keywords: 'Travel Agent',
         };
         if (

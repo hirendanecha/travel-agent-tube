@@ -1,7 +1,7 @@
-const loginUrl = 'https://www.healing.tube/login';
-const logoutUrl = 'https://www.healing.tube/logout';
-const frontendUrl = 'https://video.healing.tube/';
-const backendUrl =  'https://api.healing.tube/';
+const loginUrl = 'https://www.travelagent.tube/login';
+const logoutUrl = 'https://www.travelagent.tube/logout';
+const frontendUrl = 'https://video.travelagent.tube/';
+const backendUrl =  'https://api.travelagent.tube/';
 
 // const frontendUrl = 'http://localhost:4200/';
 // const backendUrl = 'http://localhost:8080/';
@@ -15,7 +15,7 @@ export const environment = {
   backendUrl: backendUrl,
   loginUrl: loginUrl,
   apiUrl: `${backendUrl}api/v1/`,
-  domain: '.healing.tube',
+  domain: '.travelagent.tube',
   wasabiUrl: wasabiUrl,
   socketUrl: `${backendUrl}`,
   conferenceUrl: 'https://facetime.tube/',
