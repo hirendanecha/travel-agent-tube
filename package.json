@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "dev:ssr": "ng run video-travel-agent:dev-serve-ssr",
-    "serve:ssr": "node dist-video/video-travel-agent/server/main.js",
+    "serve:ssr": "node tube-dist/video-travel-agent/server/main.js",
     "build:ssr": "ng build && ng run video-travel-agent:server",
     "prerender": "ng run video-travel-agent:prerender"
   },
