@@ -82,7 +82,7 @@ export function app(): express.Express {
           description:
             'Speak face to face with travel agents locally or worldwide',
           image:
-            'https://video.travelagent.tube/assets/banner/travel-agent-Logo.jpg',
+            'https://video.travelagent.tube/assets/banner/travelagent-profilee-meta.png',
           site: 'https://video.travelagent.tube/',
           url: 'https://video.travelagent.tube' + params,
           keywords: 'Travel Agent',
