@@ -19,7 +19,7 @@ export const environment = {
   domain: '.travelagent.tube',
   wasabiUrl: wasabiUrl,
   socketUrl: `${backendUrl}`,
-  conferenceUrl: 'https://facetime.tube/',
+  conferenceUrl: 'https://meet.facetime.tube/',
   logoutUrl: logoutUrl
 };
 
